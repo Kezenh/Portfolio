@@ -1,11 +1,15 @@
-import './index.css'
+import Header from './components/Header'
+import Footer from './components/Footer'
+import ProjectCard from './components/ProjectCard'
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <h1>coucou</h1>
+    <div className="min-h-screen flex flex-col font-pixel bg-slate-950 text-slate-100">
+      <Header />
+      <div className="flex-1">
+        <ProjectCard />
+      </div>
+      <Footer />
     </div>
   )
 }
-
-export default App
