@@ -6,8 +6,144 @@ export default function App() {
   return (
     <div className="min-h-screen flex flex-col font-pixel bg-slate-950 text-slate-100">
       <Header />
-      <div className="flex-1">
-        <ProjectCard />
+      <div className="grid grid-cols-[repeat(auto-fit,minmax(24rem,1fr))] justify-items-center mx-auto w-full gap-4 p-4">
+        <ProjectCard 
+          image="Portfolio" 
+          url="#" 
+          description={
+            <>
+              <p>Pour créer le portfolio, j'utilise pour la première fois Vite, pnpm, Tailwind et TypeScript.</p>
+              <p>J'ai aussi appris à deployer mes frontends sur GitHub Pages et mes backends sur Render.</p>
+              <p>J'utilise le plan gratuit de Render donc mes projets ayant un back sont long à charger (ArgentBank, SportSee, et Billed). &#128517;</p>
+            </>
+          }
+        />
+        <ProjectCard 
+          image="Vision" 
+          url="https://kezenh.github.io/Vision/" 
+          description={
+            <>
+              <p>Mon premier projet perso.</p>
+              <p>J'ai appris à créer des hitboxes, sans utiliser de bibliothèque externe, pour la gestion de la lumière des wards.</p>
+              <p>Si vous ne jouez pas à League of Legends, le projet peut vous semblez obscur. Il servait à coacher mon équipe sur le placement de vision, d'où le nom.</p>
+            </>
+          }
+        />
+        <ProjectCard 
+          image="HRnet" 
+          url="https://kezenh.github.io/School-project-14/" 
+          description={
+            <>
+              <p>Le dernier projet de ma formation de développeur web.</p>
+              <p>C'est malheuresement aussi le plus moche (visuellement). &#128557;</p>
+              <p>Ce projet demandait de créer un <a className="text-blue-500 hover:underline" href="https://www.npmjs.com/package/kezenh-modal-package" target="_blank" rel="noopener noreferrer">package</a> et de l'utiliser.</p>
+            </>
+          }
+        />
+        <ProjectCard 
+          image="ArgentBank" 
+          url="https://kezenh.github.io/School-project-13-front" 
+          description={
+            <>
+              <p>J'ai appris à créer un système d'authentification JWT.</p>
+              <div>
+                <p>Utilisateur 1 : tony@stark.com</p>
+                <p>Mot de passe : password123</p>
+              </div>
+              <div>
+                <p>Utilisateur 2 : steve@rogers.com</p>
+                <p>Mot de passe : password456</p> 
+              </div>
+            </>
+          }
+        />
+        <ProjectCard 
+          image="SportSee" 
+          url="https://kezenh.github.io/School-project-12-front/" 
+          description={
+            <>
+              <p>Ici je récupère les données d'un utilisateur à partir d'une <a className="text-blue-500 hover:underline" href="https://school-project-12-back.onrender.com/user/18" target="_blank" rel="noopener noreferrer">API</a>.</p>
+              <p>L'APi compte deux utilisateurs, le 12 et 18. Le frontend affiche le 18.</p>
+              <p>J'ai aussi fait de beaux graphiques avec Recharts.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="Kasa"
+          url="https://kezenh.github.io/School-project-11/"
+          description={
+            <>
+              <p>Mon premier projet React !</p>
+              <p>J'ai du apprendre à créer mes composants, à faire mes routes, à utiliser les hooks...</p>
+              <p>Bref, tout un programme, mais surtout beaucoup de plaisir. &#128526;</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="Billed"
+          url="https://kezenh.github.io/School-project-9-front/"
+          description={
+            <>
+              <p>La première fois ou je me suis connecté à un vrai backend.</p>
+              <p>Le but était de se connecter, soit en admin soit en user, et de pouvoir intéragir avec une base de données modifiable.</p>
+              <p>J'ai aussi appris à faire des tests unitaires et end-to-end avec Jest.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="Les petits plats"
+          url="https://kezenh.github.io/School-project-7/"
+          description={
+            <>
+              <p>Mon projet préféré de ma formation de développeur web.</p>
+              <p>Il fallait ici faire un véritable petit moteur de recherche, qui affiche seulement les éléments correspondants au texte écrit et aux étiquettes sélectionnées.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="Fisheye"
+          url="https://kezenh.github.io/School-project-6/"
+          description={
+            <>
+              <p>J'ai appris ici à créer des éléments dynamiquement à partir de bases de données (ici un simple JSON).</p>
+              <p>Ca permet de créer des sites web plus maintenables et évolutifs.</p>
+              <p>J'ai aussi travaillé le coté accessible de mes sites avec les aria-labels et tabindex.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="GameOn"
+          url="https://kezenh.github.io/School-project-4/"
+          description={
+            <>
+              <p>Je savais déjà coder avant ma formation de développeur web.</p>
+              <p>Mais ce projet m'a permis d'apprendre à intégrer du Javascript à mes sites web.</p>
+              <p>Ici, j'utilise ça (et les expresions régulières) pour valider un formulaire.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="ohmyfood"
+          url="https://kezenh.github.io/School-project-2/"
+          description={
+            <>
+              <p>Le but de ce projet était de créer mes premières animations CSS.</p>
+              <p>Ne vous inquiétez pas pour le loader au début, je sais qu'il est impressionnant mais il ne vous veut aucun mal.</p>
+              <p>J'ai aussi appris faire du CSS plus propre avec Sass.</p>
+            </>
+          }
+        />
+        <ProjectCard
+          image="Reservia"
+          url="https://kezenh.github.io/School-project-1/"
+          description={
+            <>
+              <p>Un de mes premier site web, et le premier projet de ma formation de développeur web.</p>
+              <p>Le but était de créer un site web responsive le plus précisement possible à partir d'une maquette Figma.</p>
+              <p>J'ai seulement utilisé HTML et CSS.</p>
+            </>
+          }
+        />
       </div>
       <Footer />
     </div>
