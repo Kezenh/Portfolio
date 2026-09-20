@@ -45,7 +45,7 @@ export default function App() {
           url="https://kezenh.github.io/School-project-13-front" 
           description={
             <>
-              <p>J'ai appris à créer un système d'authentification JWT.</p>
+              <p>J'ai appris à créer un système d'authentification JSON Web Token.</p>
               <div>
                 <p>Utilisateur 1 : tony@stark.com</p>
                 <p>Mot de passe : password123</p>
@@ -105,7 +105,7 @@ export default function App() {
           url="https://kezenh.github.io/School-project-6/"
           description={
             <>
-              <p>J'ai appris à créer des éléments dynamiquement à partir de bases de données (ici un simple JSON).</p>
+              <p>J'ai appris à créer dynamiquement des éléments à partir de bases de données (ici un simple JSON).</p>
               <p>Ça permet de créer des sites web plus maintenables et évolutifs.</p>
               <p>J'ai aussi travaillé l'accessibilité de mes sites avec les <code>aria-label</code> et <code>tabindex</code>.</p>
             </>
