@@ -3,5 +3,5 @@
 @import "tailwindcss";
 
 @theme {
-  --font-pixel: "Pixelify Sans", sans-serif;
+  --font-pixel: "VT323", monospace;
 }
