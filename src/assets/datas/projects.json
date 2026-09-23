@@ -2,61 +2,97 @@
     {
         "name": "Portfolio",
         "url": "#",
-        "description": "<p>Pour créer le portfolio, j'utilise pour la première fois Vite, pnpm, Tailwind et TypeScript.</p><p>J'ai aussi appris à déployer mes frontends sur GitHub Pages et mes backends sur Render.</p><p>J'utilise le plan gratuit de Render, donc mes projets ayant un back sont longs à charger (ArgentBank, SportSee et Billed). &#128517;</p>"
+        "description": {
+            "fr": "<p>Pour créer le portfolio, j'utilise pour la première fois Vite, pnpm, Tailwind et TypeScript.</p><p>J'ai aussi appris à déployer mes frontends sur GitHub Pages et mes backends sur Render.</p><p>J'utilise le plan gratuit de Render, donc mes projets ayant un back sont longs à charger (ArgentBank, SportSee et Billed). &#128517;</p>",
+            "en": "<p>To create this portfolio, I used Vite, pnpm, Tailwind and TypeScript for the first time.</p><p>I also learned how to deploy my frontends on GitHub Pages and my backends on Render.</p><p>I use Render's free plan, so my projects with a backend take a while to load (ArgentBank, SportSee and Billed). &#128517;</p>"
+        }
     },
     {
         "name": "Vision",
         "url": "https://kezenh.github.io/Vision/",
-        "description": "<p>Mon premier projet perso.</p><p>J'ai appris à créer des hitboxes, sans utiliser de bibliothèque externe, pour la gestion de la lumière des wards.</p><p>Si vous ne jouez pas à League of Legends, le projet peut vous sembler obscur. Il servait à coacher mon équipe sur le placement de vision, d'où le nom.</p>"
+        "description": {
+            "fr": "<p>Mon premier projet perso.</p><p>J'ai appris à créer des hitboxes, sans utiliser de bibliothèque externe, pour la gestion de la lumière des wards.</p><p>Si vous ne jouez pas à League of Legends, le projet peut vous sembler obscur. Il servait à coacher mon équipe sur le placement de vision, d'où le nom.</p>",
+            "en": "<p>My first personal project.</p><p>I learned how to create hitboxes without using an external library, to handle the light radius of wards.</p><p>If you don't play League of Legends, the project may seem a little obscure. It was designed to coach my team on vision placement, hence the name.</p>"
+        }
     },
     {
         "name": "HRnet",
         "url": "https://kezenh.github.io/School-project-14/",
-        "description": "<p>Le dernier projet de ma formation de développeur web.</p><p>C'est malheureusement aussi le plus moche (visuellement). &#128557;</p><p>Ce projet demandait de créer un <a class='text-blue-500 hover:underline' href='https://www.npmjs.com/package/kezenh-modal-package' target='_blank' rel='noopener noreferrer'>package</a> et de l'utiliser.</p>"
+        "description": {
+            "fr": "<p>Le dernier projet de ma formation de développeur web.</p><p>C'est malheureusement aussi le plus moche (visuellement). &#128557;</p><p>Ce projet demandait de créer un <a class='text-blue-500 hover:underline' href='https://www.npmjs.com/package/kezenh-modal-package' target='_blank' rel='noopener noreferrer'>package</a> et de l'utiliser.</p>",
+            "en": "<p>The final project of my web development training.</p><p>Unfortunately, it's also the ugliest one (visually). &#128557;</p><p>This project required me to create a <a class='text-blue-500 hover:underline' href='https://www.npmjs.com/package/kezenh-modal-package' target='_blank' rel='noopener noreferrer'>package</a> and use it.</p>"
+        }
     },
     {
         "name": "Argent Bank",
         "url": "https://kezenh.github.io/School-project-13-front",
-        "description": "<p>J'ai appris à créer un système d'authentification JSON Web Token.</p><div><p>Utilisateur 1 : tony@stark.com</p><p>Mot de passe : password123</p></div><div><p>Utilisateur 2 : steve@rogers.com</p><p>Mot de passe : password456</p></div>"
+        "description": {
+            "fr": "<p>J'ai appris à créer un système d'authentification JSON Web Token.</p><div><p>Utilisateur 1 : tony@stark.com</p><p>Mot de passe : password123</p></div><div><p>Utilisateur 2 : steve@rogers.com</p><p>Mot de passe : password456</p></div>",
+            "en": "<p>I learned how to create a JSON Web Token authentication system.</p><div> <p>User 1: tony@stark.com</p> <p>Password: password123</p> </div><div> <p>User 2: steve@rogers.com</p> <p>Password: password456</p> </div>"
+        }
     },
     {
         "name": "SportSee",
         "url": "https://kezenh.github.io/School-project-12-front/",
-        "description": "<p>Ici, je récupère les données d'un utilisateur à partir d'une <a class='text-blue-500 hover:underline' href='https://school-project-12-back.onrender.com/user/18' target='_blank' rel='noopener noreferrer'>API</a>.</p><p>L'API compte deux utilisateurs, les 12 et 18. Le frontend affiche le 18.</p><p>J'ai aussi fait de beaux graphiques avec Recharts.</p>"
+        "description": {
+            "fr": "<p>Ici, je récupère les données d'un utilisateur à partir d'une <a class='text-blue-500 hover:underline' href='https://school-project-12-back.onrender.com/user/18' target='_blank' rel='noopener noreferrer'>API</a>.</p><p>L'API compte deux utilisateurs, les 12 et 18. Le frontend affiche le 18.</p><p>J'ai aussi fait de beaux graphiques avec Recharts.</p>",
+            "en": "<p>Here, I retrieve a user's data from an <a class='text-blue-500 hover:underline' href='https://school-project-12-back.onrender.com/user/18' target='_blank' rel='noopener noreferrer'>API</a>.</p><p>The API has two users, 12 and 18. The frontend displays user 18.</p><p>I also made some nice charts with Recharts.</p>"
+        }
     },
     {
         "name": "Kasa",
         "url": "https://kezenh.github.io/School-project-11/",
-        "description": "<p>Mon premier projet React !</p><p>J'ai dû apprendre à créer mes composants, à faire mes routes, à utiliser les hooks...</p><p>Bref, tout un programme, mais surtout beaucoup de plaisir. &#128526;</p>"
+        "description": {
+            "fr": "<p>Mon premier projet React !</p><p>J'ai dû apprendre à créer mes composants, à faire mes routes, à utiliser les hooks...</p><p>Bref, tout un programme, mais surtout beaucoup de plaisir. &#128526;</p>",
+            "en": "<p>My first React project!</p><p>I had to learn how to create components, set up routes, use hooks...</p><p>In short, quite a lot to learn, but most importantly, a lot of fun. &#128526;</p>"
+        }
     },
     {
         "name": "Billed",
         "url": "https://kezenh.github.io/School-project-9-front/",
-        "description": "<p>La première fois où je me suis connecté à un vrai backend.</p><p>Le but était de se connecter, soit en admin, soit en user, et de pouvoir interagir avec une base de données modifiable.</p><p>J'ai aussi appris à faire des tests unitaires et end-to-end avec Jest.</p>"
+        "description": {
+            "fr": "<p>La première fois où je me suis connecté à un vrai backend.</p><p>Le but était de se connecter, soit en admin, soit en user, et de pouvoir interagir avec une base de données modifiable.</p><p>J'ai aussi appris à faire des tests unitaires et end-to-end avec Jest.</p>",
+            "en": "<p>The first time I connected to a real backend.</p><p>The goal was to log in either as an admin or as a user, and be able to interact with an editable database.</p><p>I also learned how to write unit and end-to-end tests with Jest.</p>"
+        }
     },
     {
         "name": "Les petits plats",
         "url": "https://kezenh.github.io/School-project-7/",
-        "description": "<p>Mon projet préféré de ma formation de développeur web.</p><p>Il fallait faire un véritable petit moteur de recherche, qui affiche seulement les éléments correspondants au texte écrit et aux étiquettes sélectionnées.</p>"
+        "description": {
+            "fr": "<p>Mon projet préféré de ma formation de développeur web.</p><p>Il fallait faire un véritable petit moteur de recherche, qui affiche seulement les éléments correspondants au texte écrit et aux étiquettes sélectionnées.</p>",
+            "en": "<p>My favorite project from my web development training.</p><p>The goal was to build a small search engine that only displays items matching the entered text and the selected tags.</p>"
+        }
     },
     {
         "name": "Fisheye",
         "url": "https://kezenh.github.io/School-project-6/",
-        "description": "<p>J'ai appris à créer dynamiquement des éléments à partir de bases de données (ici un simple JSON).</p><p>Ça permet de créer des sites web plus maintenables et évolutifs.</p><p>J'ai aussi travaillé l'accessibilité de mes sites avec les aria-label et tabindex.</p>"
+        "description": {
+            "fr": "<p>J'ai appris à créer dynamiquement des éléments à partir de bases de données (ici un simple JSON).</p><p>Ça permet de créer des sites web plus maintenables et évolutifs.</p><p>J'ai aussi travaillé l'accessibilité de mes sites avec les aria-label et tabindex.</p>",
+            "en": "<p>I learned how to dynamically create elements from databases (in this case, a simple JSON file).</p><p>This makes it possible to build websites that are easier to maintain and scale.</p><p>I also worked on improving the accessibility of my websites using aria-label and tabindex.</p>"
+        }
     },
     {
         "name": "GameOn",
         "url": "https://kezenh.github.io/School-project-4/",
-        "description": "<p>Je savais déjà coder avant ma formation de développeur web.</p><p>Mais ce projet m'a permis d'apprendre à intégrer du JavaScript à mes sites web.</p><p>Ici, j'utilise ça (et les expressions régulières) pour valider un formulaire.</p>"
+        "description": {
+            "fr": "<p>Je savais déjà coder avant ma formation de développeur web.</p><p>Mais ce projet m'a permis d'apprendre à intégrer du JavaScript à mes sites web.</p><p>Ici, j'utilise ça (et les expressions régulières) pour valider un formulaire.</p>",
+            "en": "<p>I already knew how to code before starting my web development training.</p><p>However, this project allowed me to learn how to integrate JavaScript into my websites.</p><p>Here, I use it (along with regular expressions) to validate a form.</p>"
+        }
     },
     {
         "name": "ohmyfood",
         "url": "https://kezenh.github.io/School-project-2/",
-        "description": "<p>Le but de ce projet était de créer mes premières animations CSS.</p><p>Ne vous inquiétez pas pour le loader au début, je sais qu'il est impressionnant mais il ne vous veut aucun mal.</p><p>J'ai aussi appris à faire du CSS plus propre avec Sass.</p>"
+        "description": {
+            "fr": "<p>Le but de ce projet était de créer mes premières animations CSS.</p><p>Ne vous inquiétez pas pour le loader au début, je sais qu'il est impressionnant mais il ne vous veut aucun mal.</p><p>J'ai aussi appris à faire du CSS plus propre avec Sass.</p>",
+            "en": "<p>The goal of this project was to create my first CSS animations.</p><p>Don't worry about the loader at the beginning. I know it's impressive, but it won't hurt you.</p><p>I also learned how to write cleaner CSS with Sass.</p>"
+        }
     },
     {
         "name": "Reservia",
         "url": "https://kezenh.github.io/School-project-1/",
-        "description": "<p>Un de mes premiers sites web, et le premier projet de ma formation de développeur web.</p><p>Le but était de créer un site web responsive le plus précisément possible à partir d'une maquette Figma.</p><p>J'ai seulement utilisé HTML et CSS.</p>"
+        "description": {
+            "fr": "<p>Un de mes premiers sites web, et le premier projet de ma formation de développeur web.</p><p>Le but était de créer un site web responsive le plus précisément possible à partir d'une maquette Figma.</p><p>J'ai seulement utilisé HTML et CSS.</p>",
+            "en": "<p>One of my first websites, and the first project of my web development training.</p><p>The goal was to create a responsive website that matched a Figma mockup as closely as possible.</p><p>I only used HTML and CSS.</p>"
+        }
     }
 ]

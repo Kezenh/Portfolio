@@ -1,11 +1,13 @@
 import ProjectCard from './ProjectCard'
 import projects from '../assets/datas/projects.json'
 import { useState } from 'react'
+import { useLanguage } from '../contexts/LanguageContext';
 
 export default function ProjectsLibrary() {
 
     const [reversed, setReversed] = useState(false);
     const sortedProjects = reversed ? [...projects].reverse() : projects;
+    const { language } = useLanguage();
 
   return (
         <>
@@ -18,7 +20,7 @@ export default function ProjectsLibrary() {
                         key={project.name}
                         name={project.name}
                         url={project.url} 
-                        description={project.description}
+                        description={project.description[language]}
                     />
                 ))}
             </div>
